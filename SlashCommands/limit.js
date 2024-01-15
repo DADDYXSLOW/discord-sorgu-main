@@ -17,6 +17,6 @@ module.exports = {
 
         if(member.roles.cache.has(roller.vip) || member.roles.cache.has(roller.premium) || member.roles.cache.has(roller.freemium) || member.roles.cache.has(roller.booster)) sayim = "SINIRSIZ"
 
-await int.followUp({embeds:[new discord.EmbedBuilder().setDescription(`Kalan sorgu limitin: **${sayim}**`)]})
+await int.followUp({embeds:[new discord.EmbedBuilder().setDescription(`Kalan sorgu limitin: **${sonsuz}**`)]})
 }
 }
